@@ -8,9 +8,7 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="bg-gray-100">
-    <!-- <header class="bg-blue-500 text-white p-4 text-center">
-        <h1 class="text-2xl font-bold">Product Catalog</h1>
-    </header> -->
+
     <footer class="bg-gray-800 text-white p-4 text-center">
         <p>&copy; 2024 MyStore. All rights reserved.</p>
     </footer>

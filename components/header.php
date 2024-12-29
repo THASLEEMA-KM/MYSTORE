@@ -53,7 +53,6 @@
         closeIcon.classList.toggle('hidden');
     });
 
-    // Reset menu visibility on resize
     window.addEventListener('resize', () => {
         if (window.innerWidth >= 768) {
             menu.classList.add('hidden');

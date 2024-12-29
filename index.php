@@ -105,5 +105,4 @@
 
 <?php include 'components/footer.php'; ?>
 
-<!-- Optional: External JS for Animations (Add to footer for performance) -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"></script>

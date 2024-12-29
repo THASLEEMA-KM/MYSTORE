@@ -1,14 +1,11 @@
 <?php
 include 'components/header.php';
 
-// Get the product name from the URL query parameter
 $productName = isset($_GET['name']) ? urldecode($_GET['name']) : null;
 
-// Read the products.json file
 $jsonData = file_get_contents('data/products.json');
 $products = json_decode($jsonData, true);
 
-// Find the product with the matching name
 $product = null;
 foreach ($products as $item) {
     if ($item['title'] === $productName) {

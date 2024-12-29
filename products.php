@@ -7,7 +7,6 @@
         <div >
             <label for="category-filter" class="block text-gray-700">Filter by Category:</label>
             <select id="category-filter" class="border p-3 rounded">
-                <!-- <option value="all">All</option> -->
             </select>
         </div>
 </div>
